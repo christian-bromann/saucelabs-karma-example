@@ -1,0 +1,29 @@
+{
+  "name": "saucelabs-karma-example",
+  "version": "1.0.0",
+  "description": "Saucelabs Karma Example =======================",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine-core": "^3.6.0",
+    "karma-sauce-launcher": "^4.1.5",
+    "karma-jasmine": "^4.0.1",
+    "karma": "^5.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-bromann/saucelabs-karma-example.git"
+  },
+  "author": "Christian Bromann <christian@saucelabs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christian-bromann/saucelabs-karma-example/issues"
+  },
+  "homepage": "https://github.com/christian-bromann/saucelabs-karma-example#readme"
+}
