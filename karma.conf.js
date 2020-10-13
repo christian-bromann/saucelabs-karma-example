@@ -1,3 +1,5 @@
+const build = 'Karma Example Build'
+
 module.exports = function(config) {
     // Example set of browsers to run on Sauce Labs
     // Check out https://saucelabs.com/platforms for all browser/platform combos
@@ -6,7 +8,20 @@ module.exports = function(config) {
             base: 'SauceLabs',
             browserName: 'chrome',
             platformName: 'Windows 10',
-            browserVersion: 'latest'
+            browserVersion: 'latest',
+            'sauce:options': {
+                build,
+            }
+        },
+        sl_ios_13: {
+            base: 'SauceLabs',
+            browserName: 'Safari',
+            platformName: 'iOS',
+            'appium:deviceName': 'iPhone Simulator',
+            'appium:platformVersion': '13.2',
+            'sauce:options': {
+                build,
+            }
         }
     }
   
