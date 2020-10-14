@@ -13,15 +13,35 @@ module.exports = function(config) {
                 build,
             }
         },
-        sl_ios_13: {
+        sl_safari_9: {
             base: 'SauceLabs',
-            browserName: 'Safari',
-            platformName: 'iOS',
-            'appium:deviceName': 'iPhone Simulator',
-            'appium:platformVersion': '13.2',
-            'sauce:options': {
-                build,
-            }
+            browserName: 'safari',
+            version: 9,
+            platform: 'OS X 10.11'
+        },
+        sl_ie_9: {
+            base: 'SauceLabs',
+            browserName: 'internet explorer',
+            version: 9,
+            platform: 'Windows 7'
+        },
+        sl_ff_54: {
+            base: 'SauceLabs',
+            browserName: 'firefox',
+            version: 54,
+            platform: 'Windows 10'
+        },
+        sl_mse_13: {
+            base: 'SauceLabs',
+            browserName: 'microsoftedge',
+            version: '13.10586',
+            platform: 'Windows 10'
+        },
+        sl_chrome_55: {
+            base: 'SauceLabs',
+            browserName: 'chrome',
+            version: 55,
+            platform: 'Windows 10'
         }
     }
   
