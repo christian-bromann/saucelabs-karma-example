@@ -36,13 +36,13 @@ module.exports = function(config) {
             browserName: 'microsoftedge',
             version: '13.10586',
             platform: 'Windows 10'
-        },
-        sl_chrome_55: {
-            base: 'SauceLabs',
-            browserName: 'chrome',
-            version: 55,
-            platform: 'Windows 10'
         }
+        // sl_chrome_55: {
+        //     base: 'SauceLabs',
+        //     browserName: 'chrome',
+        //     version: ,
+        //     platform: 'Windows 10'
+        // }
     }
   
     config.set({
