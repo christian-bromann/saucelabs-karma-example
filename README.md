@@ -1,5 +1,4 @@
-Saucelabs Karma Example
-=======================
+# Saucelabs Karma Example 
 
 > An example of using the Karma test runner with Sauce Labs' browser cloud to run JavaScript unit tests.
 
